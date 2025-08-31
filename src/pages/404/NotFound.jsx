@@ -13,27 +13,27 @@ function NotFound() {
         <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
           <path
             d="M353,9 L626.664028,170 L626.664028,487 L353,642 L79.3359724,487 L79.3359724,170 L353,9 Z"
-            stroke="#007FB2"
+            stroke="#000080"
             strokeWidth="6"
           />
           <path
             d="M78.5,529 L147,569.186414 L147,648.311216 L78.5,687 L10,648.311216 L10,569.186414 L78.5,529 Z"
-            stroke="#EF4A5B"
+            stroke="#e60000"
             strokeWidth="6"
           />
           <path
             d="M773,186 L827,217.538705 L827,279.636651 L773,310 L719,279.636651 L719,217.538705 L773,186 Z"
-            stroke="#795D9C"
+            stroke="#e60000"
             strokeWidth="6"
           />
           <path
             d="M639,529 L773,607.846761 L773,763.091627 L639,839 L505,763.091627 L505,607.846761 L639,529 Z"
-            stroke="#F2773F"
+            stroke="#1F1F1F"
             strokeWidth="6"
           />
           <path
             d="M281,801 L383,861.025276 L383,979.21169 L281,1037 L179,979.21169 L179,861.025276 L281,801 Z"
-            stroke="#36B455"
+            stroke="#007bff"
             strokeWidth="6"
           />
         </g>
@@ -44,12 +44,12 @@ function NotFound() {
         <p>Página no encontrada</p>
         <div className="buttons-con">
           <div className="action-link-wrap">
-            <button
+            {/* <button
               className="link-button link-back-button"
               onClick={() => window.history.back()}
             >
               Go Back
-            </button>
+            </button> */}
 
             <Link to={"/"} className="link-button">
               Go to Home Page
