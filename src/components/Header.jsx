@@ -1,5 +1,5 @@
 import './Header.css';
-import { Link } from 'react-router-dom';
+import { NavLink  } from 'react-router-dom';
 
 function Header() {
     return (
@@ -12,21 +12,21 @@ function Header() {
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav  ">
-                            <Link to={'/'} className="nav-item active">
-                                <span className="nav-link" >Home <span className="sr-only">(current)</span></span>
-                            </Link>
-                            <Link to={'/'} className="nav-item">
-                                <span className="nav-link"> About</span>
-                            </Link>
-                            <Link to={'/'} className="nav-item">
+                            <NavLink  to={'/'} className={({ isActive }) => isActive ? "nav-item active" : "nav-item"}>
+                                <span className="nav-link">Inicio<span className="sr-only">(current)</span></span>
+                            </NavLink>
+                            <NavLink  to={'/nosotros'} className={({ isActive }) => isActive ? "nav-item active" : "nav-item"}>
+                                <span className="nav-link">Nosotros</span>
+                            </NavLink>
+                            <NavLink  to={'/'} >
                                 <span className="nav-link navbar-brand"> <span><span><img src="images/logo.png" alt="" /></span></span></span>
-                            </Link>
-                            <Link to={'/'} className="nav-item">
+                            </NavLink>
+                            <NavLink  to={'/servicios'} className={({ isActive }) => isActive ? "nav-item active" : "nav-item"}>
                                 <span className="nav-link">Servicios</span>
-                            </Link>
-                            <Link to={'/'} className="nav-item">
-                                <span className="nav-link">Contact </span>
-                            </Link>
+                            </NavLink>
+                            <NavLink  to={'/contacto'} className={({ isActive }) => isActive ? "nav-item active" : "nav-item"}>
+                                <span className="nav-link">Contacto</span>
+                            </NavLink>
                         </ul>
                     </div>
                 </nav>

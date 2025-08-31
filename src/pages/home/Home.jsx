@@ -1,4 +1,5 @@
 import './Home.css';
+import { Link } from 'react-router-dom';
 function Home() {
     return (
         <>
@@ -15,8 +16,8 @@ function Home() {
                                                 magna aliqua. Ut enim ad minim veniam, quis non</p>
                                             <div className="form-group">
                                                 <input type="text" className="update_mail" placeholder="Search here" name="Search here" />
-                                                <div className="subscribe_bt"><a href="#"><i className="fa fa-arrow-right"
-                                                    aria-hidden="true"></i></a></div>
+                                                <div className="subscribe_bt"><Link to={'/contacto'}><i className="fa fa-arrow-right"
+                                                    aria-hidden="true"></i></Link></div>
                                             </div>
                                         </div>
                                     </div>
@@ -27,8 +28,8 @@ function Home() {
                                                 magna aliqua. Ut enim ad minim veniam, quis non</p>
                                             <div className="form-group">
                                                 <input type="text" className="update_mail" placeholder="Search here" name="Search here" />
-                                                <div className="subscribe_bt"><a href="#"><i className="fa fa-arrow-right"
-                                                    aria-hidden="true"></i></a></div>
+                                                <div className="subscribe_bt"><Link to={'/contacto'}><i className="fa fa-arrow-right"
+                                                    aria-hidden="true"></i></Link></div>
                                             </div>
                                         </div>
                                     </div>
@@ -39,8 +40,8 @@ function Home() {
                                                 magna aliqua. Ut enim ad minim veniam, quis non</p>
                                             <div className="form-group">
                                                 <input type="text" className="update_mail" placeholder="Search here" name="Search here" />
-                                                <div className="subscribe_bt"><a href="#"><i className="fa fa-arrow-right"
-                                                    aria-hidden="true"></i></a></div>
+                                                <div className="subscribe_bt"><Link to={'/contacto'}><i className="fa fa-arrow-right"
+                                                    aria-hidden="true"></i></Link></div>
                                             </div>
                                         </div>
                                     </div>
@@ -71,8 +72,8 @@ function Home() {
                                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationconsectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                 exercitation</p>
-                            <div className="readmore_btn"><a href="#">Read More<span className="arrow_icon"><i className="fa fa-long-arrow-right"
-                                aria-hidden="true"></i></span></a></div>
+                            <div className="readmore_btn"><Link to={'/nosotros'}>Read More<span className="arrow_icon"><i className="fa fa-long-arrow-right"
+                                aria-hidden="true"></i></span></Link></div>
                         </div>
                     </div>
                 </div>
@@ -95,8 +96,8 @@ function Home() {
                                     in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
                                 <div className="price_main">
                                     <p className="price_text"><span>Price</span> $30000.00</p>
-                                    <div className="read_btn"><a href="#">Read More<span className="arrow_icon"><i
-                                        className="fa fa-long-arrow-right" aria-hidden="true"></i></span></a></div>
+                                    <div className="read_btn"><Link to={'/servicios'}>Read More<span className="arrow_icon"><i
+                                        className="fa fa-long-arrow-right" aria-hidden="true"></i></span></Link></div>
                                 </div>
                             </div>
                         </div>
@@ -109,8 +110,8 @@ function Home() {
                                     in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
                                 <div className="price_main">
                                     <p className="price_text"><span>Price</span> $30000.00</p>
-                                    <div className="read_btn"><a href="#">Read More<span className="arrow_icon"><i
-                                        className="fa fa-long-arrow-right" aria-hidden="true"></i></span></a></div>
+                                    <div className="read_btn"><Link to={'/servicios'}>Read More<span className="arrow_icon"><i
+                                        className="fa fa-long-arrow-right" aria-hidden="true"></i></span></Link></div>
                                 </div>
                             </div>
                             <div className="col-md-6">
@@ -129,8 +130,8 @@ function Home() {
                                     in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
                                 <div className="price_main">
                                     <p className="price_text"><span>Price</span> $30000.00</p>
-                                    <div className="read_btn"><a href="#">Read More<span className="arrow_icon"><i
-                                        className="fa fa-long-arrow-right" aria-hidden="true"></i></span></a></div>
+                                    <div className="read_btn"><Link to={'/servicios'}>Read More<span className="arrow_icon"><i
+                                        className="fa fa-long-arrow-right" aria-hidden="true"></i></span></Link></div>
                                 </div>
                             </div>
                         </div>
@@ -187,41 +188,6 @@ function Home() {
                                                 <div className="quick_icon"><img src="images/quick-icon.png" /></div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className="contact_section layout_padding">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <h1 className="contact_taital">Get In Touch</h1>
-                        </div>
-                    </div>
-                    <div className="contact_section_2">
-                        <div className="mail_section map_form_container">
-                            <form action="">
-                                <input type="text" className="mail_text" placeholder="Name" name="Name" />
-                                <input type="text" className="mail_text" placeholder="Phone Number" name="Phone Number" />
-                                <input type="text" className="mail_text" placeholder="Email" name="Email" />
-                                <textarea className="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-                                <div className="map_btn_main">
-                                    <div className="send_bt"><a href="#">Send Now</a></div>
-                                    <div className="map_bt"><a href="#" id="showMap">Map</a></div>
-                                </div>
-                            </form>
-                            <div className="map_main map_container">
-                                <div className="map-responsive">
-                                    <iframe
-                                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France"
-                                        width="600" height="368" frameBorder="0"
-                                        allowFullScreen=""></iframe>
-                                    <div className="map_btn_main">
-                                        <div className="map_bt d-flex justify-content-center w-100 map_center"><a href="#"
-                                            id="showForm">Form</a></div>
                                     </div>
                                 </div>
                             </div>
