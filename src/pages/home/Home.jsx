@@ -72,7 +72,7 @@ function Home() {
                                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationconsectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                 exercitation</p>
-                            <div className="readmore_btn"><Link to={'/nosotros'}>Read More<span className="arrow_icon"><i className="fa fa-long-arrow-right"
+                            <div className="readmore_btn"><Link to={'/nosotros'}>Leer más<span className="arrow_icon"><i className="fa fa-long-arrow-right"
                                 aria-hidden="true"></i></span></Link></div>
                         </div>
                     </div>
@@ -91,12 +91,11 @@ function Home() {
                                 <div className="models_img"><img src="images/alignment.png" /></div>
                             </div>
                             <div className="col-md-6">
-                                <h3 className="carolo_text"><span className="number_text">01</span> New Carolo car</h3>
-                                <p className="ullamco_text">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                                <h3 className="carolo_text"><span className="number_text">01</span> Alieación y Blanceo</h3>
+                                <p className="ullamco_text">Aseguramos que las llantas de tu vehículo mantengan el ángulo correcto con respecto al suelo y entre sí. Una correcta alineación mejora la estabilidad, evita el desgaste irregular de las llantas y garantiza una conducción más segura y cómoda. </p>
                                 <div className="price_main">
-                                    <p className="price_text"><span>Price</span> $30000.00</p>
-                                    <div className="read_btn"><Link to={'/servicios'}>Read More<span className="arrow_icon"><i
+                                    <p className="price_text"><span>Precio</span> $100.000</p>
+                                    <div className="read_btn"><Link to={'/servicios'}>Leer más<span className="arrow_icon"><i
                                         className="fa fa-long-arrow-right" aria-hidden="true"></i></span></Link></div>
                                 </div>
                             </div>
@@ -105,12 +104,11 @@ function Home() {
                     <div className="models_section_2">
                         <div className="row">
                             <div className="col-md-6">
-                                <h3 className="carolo_text"><span className="number_text">02</span> New Carolo car</h3>
-                                <p className="ullamco_text">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                                <h3 className="carolo_text"><span className="number_text">02</span> Escáner</h3>
+                                <p className="ullamco_text">Contamos con equipos de diagnóstico computarizado que detectan fallas en los sistemas electrónicos de tu vehículo. El escáner nos permite identificar problemas de manera rápida y precisa, ahorrando tiempo y dinero en reparaciones.</p>
                                 <div className="price_main">
-                                    <p className="price_text"><span>Price</span> $30000.00</p>
-                                    <div className="read_btn"><Link to={'/servicios'}>Read More<span className="arrow_icon"><i
+                                    <p className="price_text"><span>Precio</span> $100.000</p>
+                                    <div className="read_btn"><Link to={'/servicios'}>Leer más<span className="arrow_icon"><i
                                         className="fa fa-long-arrow-right" aria-hidden="true"></i></span></Link></div>
                                 </div>
                             </div>
@@ -125,12 +123,11 @@ function Home() {
                                 <div className="models_img"><img src="images/battery.png" /></div>
                             </div>
                             <div className="col-md-6">
-                                <h3 className="carolo_text"><span className="number_text">03</span> New Carolo car</h3>
-                                <p className="ullamco_text">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                                <h3 className="carolo_text"><span className="number_text">03</span> Baterías</h3>
+                                <p className="ullamco_text">Realizamos pruebas, carga y reemplazo de baterías automotrices. Contamos con opciones de calidad para garantizar un encendido confiable y un óptimo funcionamiento del sistema eléctrico de tu vehículo.</p>
                                 <div className="price_main">
-                                    <p className="price_text"><span>Price</span> $30000.00</p>
-                                    <div className="read_btn"><Link to={'/servicios'}>Read More<span className="arrow_icon"><i
+                                    <p className="price_text"><span>Precio</span> $30000.00</p>
+                                    <div className="read_btn"><Link to={'/servicios'}>Leer más<span className="arrow_icon"><i
                                         className="fa fa-long-arrow-right" aria-hidden="true"></i></span></Link></div>
                                 </div>
                             </div>
@@ -142,20 +139,20 @@ function Home() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-sm-6">
-                            <h1 className="rated_text"><span className="padding_10"><img src="images/icon-1.png" /></span>3700</h1>
-                            <p className="house_text">Happy Clients</p>
+                            <h1 className="rated_text"><span className="padding_10"><img src="images/icon-1.png" /></span>+ 200</h1>
+                            <p className="house_text">Cleint Felizces</p>
                         </div>
                         <div className="col-lg-3 col-sm-6">
+                            <h1 className="rated_text"><span className="padding_10"><img src="images/icon-4.png" /></span>+ 500</h1>
+                            <p className="house_text">Servicios realizados</p>
+                        </div>
+                        {/* <div className="col-lg-3 col-sm-6">
                             <h1 className="rated_text"><span className="padding_10"><img src="images/icon-2.png" /></span>5700</h1>
-                            <p className="house_text">Vehicles In Stock</p>
-                        </div>
+                            <p className="house_text">Servicios realizados</p>
+                        </div> */}
                         <div className="col-lg-3 col-sm-6">
-                            <h1 className="rated_text"><span className="padding_10"><img src="images/icon-3.png" /></span>124</h1>
-                            <p className="house_text">Awards</p>
-                        </div>
-                        <div className="col-lg-3 col-sm-6">
-                            <h1 className="rated_text"><span className="padding_10"><img src="images/icon-4.png" /></span>704</h1>
-                            <p className="house_text">Dealer Branches</p>
+                            <h1 className="rated_text"><span className="padding_10"><img src="images/icon-3.png" /></span>100%</h1>
+                            <p className="house_text">Garantía en todas las reparaciones</p>
                         </div>
                     </div>
                 </div>
