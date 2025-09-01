@@ -14,3 +14,13 @@
   height: 100vh;
   min-width: 320px
 }
+html, p{
+  font-size: 18px;
+}
+
+#banner_slider .carousel-control-next {
+  right: 15px;
+}
+.carousel-item {
+  width: 90%;
+}

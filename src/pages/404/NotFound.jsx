@@ -44,12 +44,12 @@ function NotFound() {
         <p>Página no encontrada</p>
         <div className="buttons-con">
           <div className="action-link-wrap">
-            {/* <button
+            <button
               className="link-button link-back-button"
               onClick={() => window.history.back()}
             >
-              Go Back
-            </button> */}
+              Volver atras
+            </button>
 
             <Link to={"/"} className="link-button">
               Go to Home Page
