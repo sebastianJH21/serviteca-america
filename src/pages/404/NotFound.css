@@ -1,70 +1,110 @@
-svg {
-  position: absolute;
+.not-found {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0 auto;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.not-found svg {
+  width: 100%;
+  margin-bottom: 30px;
+  /* position: absolute;
   top: 50%;
   left: 50%;
   margin-top: -250px;
-  margin-left: -400px;
+  margin-left: -400px; */
 }
+
 .message-box {
-  height: 200px;
-  width: 380px;
-  position: absolute;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 380px; */
+  /* position: absolute;
   top: 50%;
   left: 50%;
   margin-top: -100px;
-  margin-left: 50px;
+  margin-left: 50px; */
   color: #FFF;
   font-family: Roboto;
   font-weight: 300;
 }
+
 .message-box h1 {
   font-size: 60px;
   line-height: 46px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
-.link-back-button {
-  margin-right: 10px;
-  padding: 3px 15px;
+
+.message-box .action-link-wrap {
+  display: flex;
+  align-items: start;
+  gap: 15px;
+}
+
+.action-link-wrap .link-button {
+  width: 135px;
+  padding: 10px 15px;
   border-radius: 4px;
-  background-color: var(--secondary);
-  color: white;
-  font-weight: bold;
-  
 }
+
 .buttons-con .action-link-wrap {
-  margin-top: 40px;
+  margin-top: 20px;
 }
-.buttons-con .action-link-wrap a {
+
+.buttons-con .action-link-wrap a,
+.link-back-button {
   background: var(--secondary);
-  padding: 8px 25px;
-  border-radius: 4px;
   color: #FFF;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   transition: all 0.3s linear;
   cursor: pointer;
   text-decoration: none;
-  margin-right: 10px
+  text-align: center;
 }
-.buttons-con .action-link-wrap a:hover, .link-back-button:hover  {
+
+.buttons-con .action-link-wrap a:hover,
+.link-back-button:hover {
   background: var(--primary);
   color: #fff;
 }
 
-#Polygon-1 , #Polygon-2 , #Polygon-3 , #Polygon-4 , #Polygon-4, #Polygon-5 {
+#Polygon-1,
+#Polygon-2,
+#Polygon-3,
+#Polygon-4,
+#Polygon-4,
+#Polygon-5 {
   animation: float 1s infinite ease-in-out alternate;
 }
+
+.text-404 {
+  font-family: initial;
+  font-size: 200px;
+  display: none;
+}
+
 #Polygon-2 {
-  animation-delay: .2s; 
+  animation-delay: .2s;
 }
+
 #Polygon-3 {
-  animation-delay: .4s; 
+  animation-delay: .4s;
 }
+
 #Polygon-4 {
-  animation-delay: .6s; 
+  animation-delay: .6s;
 }
+
 #Polygon-5 {
-  animation-delay: .8s; 
+  animation-delay: .8s;
 }
 
 .message-box p {
@@ -73,24 +113,36 @@ svg {
   color: black;
   margin: 0;
 }
+
 @keyframes float {
-	100% {
+  100% {
     transform: translateY(20px);
   }
 }
-@media (max-width: 450px) {
-  svg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -250px;
-    margin-left: -190px;
+
+@media (max-width: 660px) {
+  .message-box h1 {
+    width: 100%;
   }
-  .message-box {
-    top: 50%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -190px;
-    text-align: center;
+
+  .message-box h1 {
+    display: none;
+  }
+
+  .text-404 {
+    display: block;
+  }
+
+  .not-found {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 450px) {
+  .not-found {
+    width: 100vw;
+  }
+  .not-found svg {Ñ
+    width: 95%;
   }
 }

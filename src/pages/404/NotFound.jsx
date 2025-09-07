@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import "./NotFound.css"; // Import the CSS file for styling
 function NotFound() {
-    return (
-        <div className="not-found">
+  return (
+    <div className="not-found">
       <svg
         width="380px"
         height="500px"
@@ -12,10 +12,22 @@ function NotFound() {
       >
         <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
           <path
+            id="Path-1"
             d="M353,9 L626.664028,170 L626.664028,487 L353,642 L79.3359724,487 L79.3359724,170 L353,9 Z"
             stroke="#000080"
             strokeWidth="6"
           />
+          <text
+            x="353"
+            y="350"
+            text-anchor="middle"
+            dominant-baseline="middle"
+            font-size="40"
+            fill="black"
+            className="text-404"
+          >
+            404
+          </text>
           <path
             d="M78.5,529 L147,569.186414 L147,648.311216 L78.5,687 L10,648.311216 L10,569.186414 L78.5,529 Z"
             stroke="#e60000"
@@ -52,13 +64,13 @@ function NotFound() {
             </button>
 
             <Link to={"/"} className="link-button">
-              Go to Home Page
+              Volver al inicio
             </Link>
           </div>
         </div>
       </div>
     </div>
-    )
+  )
 }
 
 export default NotFound;
