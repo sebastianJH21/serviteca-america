@@ -56,8 +56,8 @@ function Header() {
                                     </div>
                                     <div className="carousel-item">
                                         <div className="banner_taital_main">
-                                            <h1 className="banner_taital">Transparencia<br /> y confianza</h1>
-                                            <p className="banner_text">En nuestro taller creemos que la confianza se gana con claridad. Por eso explicamos cada reparación al detalle: qué falla tiene tu vehículo, por qué ocurrió y cómo puedes prevenirlo en el futuro. Aquí no hay sorpresas, solo honestidad y seguridad para ti.</p>
+                                            <h1 className="banner_taital">Calidad<br /> y garantía</h1>
+                                            <p className="banner_text">Nos comprometemos a ofrecerte reparaciones y mantenimientos con los más altos estándares de calidad. Utilizamos repuestos confiables y procedimientos profesionales, respaldando nuestro trabajo con garantía para que conduzcas con plena confianza y seguridad en tu vehículo.</p>
                                         </div>
                                     </div>
                                 </div>
