@@ -1,12 +1,10 @@
-.banner_section {
+/* .banner_section {
     position: relative;
     height: 600px;
-    /* Altura fija o ajusta según tu diseño */
     background-image: url('../images/hero.png');
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
-    /* Evita desbordes */
 }
 
 .banner_section::after {
@@ -19,13 +17,11 @@
     background-color: rgba(0, 0, 0, 0.425);
 }
 
-#banner_slider {}
-
 #banner_slider .carousel-control-next,
 #banner_slider .carousel-control-prev {
     background-color: var(--tertiary);
     color: white;
-}
+} */
 
 .container-fluid {
     position: relative;
@@ -81,9 +77,9 @@
     width: 50%;
 }
 
-.escaner_section .row {
+/* .escaner_section .row {
     flex-direction: row-reverse;
-}
+} */
 
 .choose_section_2 .row {
     display: flex;
@@ -133,13 +129,13 @@
     justify-content: center;
 }
 
-.carousel-inner {
+/* .carousel-inner {
     width: 50%;
 }
 .banner_taital_main {
     padding-top: 90px;
     padding-left: 100px;
-}
+} */
 
 @media (max-width: 992px) {
     .choose_section_2 .row {
@@ -157,13 +153,13 @@
 @media (max-width: 768px) {
 
 
-    .carousel-inner {
+    /* .carousel-inner {
         width: 60%;
-    }
+    } */
 
-    .escaner_section .row {
+    /* .escaner_section .row {
         flex-direction: row-reverse;
-    }
+    } */
 
     .box_main {
         padding: 0px 10px;
@@ -225,11 +221,10 @@
     }
 }
 
-@media (max-width: 560px) {
+/* @media (max-width: 560px) {
 
     .carousel-inner {
         width: 100%;
-        /* top: 70px; */
     }
     .banner_taital_main {
         padding: 0;
@@ -238,14 +233,14 @@
     .banner_taital {
         font-size: 45px;
     }
-}
+} */
 
 @media (max-width: 412px) {
     
-    .banner_taital_main {
+    /* .banner_taital_main {
         padding: 0;
         font-size: 20px;
-    }
+    } */
 
     .about_text {
         width: 100%;

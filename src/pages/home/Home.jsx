@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <>
-            <section className="banner_section layout_padding">
+            {/* <section className="banner_section layout_padding">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-12">
@@ -13,22 +13,12 @@ function Home() {
                                         <div className="banner_taital_main">
                                             <h1 className="banner_taital">Atención personalizada</h1>
                                             <p className="banner_text">Cada cliente y cada vehículo es único, y así los tratamos. Nos enfocamos en escuchar tus necesidades, asesorarte y brindarte soluciones a la medida, asegurando que siempre salgas con la tranquilidad de haber recibido el mejor servicio.</p>
-                                            {/* <div className="form-group">
-                                                <input type="text" className="update_mail" placeholder="Search here" name="Search here" />
-                                                <div className="subscribe_bt"><Link to={'/contacto'}><i className="fa fa-arrow-right"
-                                                    aria-hidden="true"></i></Link></div>
-                                            </div> */}
                                         </div>
                                     </div>
                                     <div className="carousel-item">
                                         <div className="banner_taital_main">
                                             <h1 className="banner_taital">Transparencia<br /> y confianza</h1>
                                             <p className="banner_text">En nuestro taller creemos que la confianza se gana con claridad. Por eso explicamos cada reparación al detalle: qué falla tiene tu vehículo, por qué ocurrió y cómo puedes prevenirlo en el futuro. Aquí no hay sorpresas, solo honestidad y seguridad para ti.</p>
-                                            {/* <div className="form-group">
-                                                <input type="text" className="update_mail" placeholder="Search here" name="Search here" />
-                                                <div className="subscribe_bt"><Link to={'/contacto'}><i className="fa fa-arrow-right"
-                                                    aria-hidden="true"></i></Link></div>
-                                            </div> */}
                                         </div>
                                     </div>
                                     <div className="carousel-item">
@@ -46,12 +36,9 @@ function Home() {
                                 </a>
                             </div>
                         </div>
-                        {/* <div className="col-md-6 padding_right0">
-                            <div className="banner_img"><img src="images/banner-img.png" /></div>
-                        </div> */}
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section className="about_section layout_padding">
                 <div className="container-fluid">
                     <div className="row">
