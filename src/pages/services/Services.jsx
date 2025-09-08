@@ -55,7 +55,7 @@ function Services() {
                     <div className="models_section_2">
                         <div className="row flex-row-reverse">
                             <div className="col-md-6">
-                                <div className="models_img"><img src="images/alignment.png" /></div>
+                                <div className="models_img"><img src="images/balanceo.png" /></div>
                             </div>
                             <div className="col-md-6">
                                 <h3 className="carolo_text"><span className="number_text">04</span> Balanceos</h3>
@@ -69,7 +69,7 @@ function Services() {
                     <div className="models_section_2 escaner_section">
                         <div className="row">
                             <div className="col-md-6">
-                                <div className="models_img"><img src="images/scanner.png" /></div>
+                                <div className="models_img"><img src="images/suspencion.png" /></div>
                             </div>
                             <div className="col-md-6">
                                 <h3 className="carolo_text"><span className="number_text">05</span> Suspensión</h3>
@@ -83,7 +83,7 @@ function Services() {
                     <div className="models_section_2">
                         <div className="row flex-row-reverse">
                             <div className="col-md-6">
-                                <div className="models_img"><img src="images/battery.png" /></div>
+                                <div className="models_img"><img src="images/frenos.png" /></div>
                             </div>
                             <div className="col-md-6">
                                 <h3 className="carolo_text"><span className="number_text">06</span> Frenos</h3>
@@ -97,7 +97,7 @@ function Services() {
                     <div className="models_section_2">
                         <div className="row">
                             <div className="col-md-6">
-                                <div className="models_img"><img src="images/battery.png" /></div>
+                                <div className="models_img"><img src="images/aire.png" /></div>
                             </div>
                             <div className="col-md-6">
                                 <h3 className="carolo_text"><span className="number_text">07</span> Mantenimiento aire acondicionado preventivo</h3>
@@ -111,7 +111,7 @@ function Services() {
                     <div className="models_section_2">
                         <div className="row flex-row-reverse">
                             <div className="col-md-6">
-                                <div className="models_img"><img src="images/battery.png" /></div>
+                                <div className="models_img"><img src="images/electrica.png" /></div>
                             </div>
                             <div className="col-md-6">
                                 <h3 className="carolo_text"><span className="number_text">08</span> Diagnóstico sistema eléctrico</h3>
@@ -125,7 +125,7 @@ function Services() {
                     <div className="models_section_2">
                         <div className="row">
                             <div className="col-md-6">
-                                <div className="models_img"><img src="images/battery.png" /></div>
+                                <div className="models_img"><img src="images/repuestos.png" /></div>
                             </div>
                             <div className="col-md-6">
                                 <h3 className="carolo_text"><span className="number_text"></span> Repuestos</h3>

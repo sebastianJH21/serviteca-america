@@ -81,7 +81,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="models_section_2 escaner_section">
-                        <div className="row">
+                        <div className="row flex-row-reverse">
                             <div className="col-md-6">
                                 <div className="models_img"><img src="images/scanner.png" /></div>
                             </div>

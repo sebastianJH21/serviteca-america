@@ -1,0 +1,5 @@
+.about_section .container-fluid .row .models_taital,
+    .about_section .container-fluid .row .models_taital::after {
+        text-align: center;
+        margin: 0 auto;
+    }
