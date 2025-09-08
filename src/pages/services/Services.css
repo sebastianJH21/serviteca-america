@@ -1,0 +1,12 @@
+.models_img {
+    height: 400px;
+    display: flex;
+    align-items: start;
+    overflow: hidden;
+}
+@media (max-width: 768px) {
+    
+    .models_section_2 .row {
+        flex-wrap: wrap;
+    }
+}
