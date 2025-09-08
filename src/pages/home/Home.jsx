@@ -3,42 +3,6 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <>
-            {/* <section className="banner_section layout_padding">
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div id="banner_slider" className="carousel slide" data-ride="carousel">
-                                <div className="carousel-inner">
-                                    <div className="carousel-item active">
-                                        <div className="banner_taital_main">
-                                            <h1 className="banner_taital">Atención personalizada</h1>
-                                            <p className="banner_text">Cada cliente y cada vehículo es único, y así los tratamos. Nos enfocamos en escuchar tus necesidades, asesorarte y brindarte soluciones a la medida, asegurando que siempre salgas con la tranquilidad de haber recibido el mejor servicio.</p>
-                                        </div>
-                                    </div>
-                                    <div className="carousel-item">
-                                        <div className="banner_taital_main">
-                                            <h1 className="banner_taital">Transparencia<br /> y confianza</h1>
-                                            <p className="banner_text">En nuestro taller creemos que la confianza se gana con claridad. Por eso explicamos cada reparación al detalle: qué falla tiene tu vehículo, por qué ocurrió y cómo puedes prevenirlo en el futuro. Aquí no hay sorpresas, solo honestidad y seguridad para ti.</p>
-                                        </div>
-                                    </div>
-                                    <div className="carousel-item">
-                                        <div className="banner_taital_main">
-                                            <h1 className="banner_taital">Transparencia<br /> y confianza</h1>
-                                            <p className="banner_text">En nuestro taller creemos que la confianza se gana con claridad. Por eso explicamos cada reparación al detalle: qué falla tiene tu vehículo, por qué ocurrió y cómo puedes prevenirlo en el futuro. Aquí no hay sorpresas, solo honestidad y seguridad para ti.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a className="carousel-control-prev" href="#banner_slider" role="button" data-slide="prev">
-                                    <i className="fa fa-angle-left"></i>
-                                </a>
-                                <a className="carousel-control-next" href="#banner_slider" role="button" data-slide="next">
-                                    <i className="fa fa-angle-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
             <section className="about_section layout_padding">
                 <div className="container-fluid">
                     <div className="row">

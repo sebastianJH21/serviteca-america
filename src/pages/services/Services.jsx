@@ -1,5 +1,4 @@
 import './Services.css';
-import { Link } from 'react-router-dom';
 function Services() {
 
     return (
@@ -130,9 +129,6 @@ function Services() {
                             <div className="col-md-6">
                                 <h3 className="carolo_text"><span className="number_text"></span> Repuestos</h3>
                                 <p className="ullamco_text">Ofrecemos repuestos originales y de alta calidad para tu vehículo. Contamos con piezas confiables que aseguran un rendimiento óptimo, mayor durabilidad y compatibilidad con las reparaciones realizadas en nuestro taller.</p>
-                                {/* <div className="price_main">
-                                    <p className="price_text"><span>Precio</span> $100.000</p>
-                                </div> */}
                             </div>
                         </div>
                     </div>

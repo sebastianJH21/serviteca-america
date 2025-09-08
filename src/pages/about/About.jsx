@@ -5,13 +5,8 @@ function About() {
             <section className="about_section layout_padding pt-5">
                 <div className="container-fluid">
                     <div className="row jutify-content-center">
-                        {/* <div className="col-md-6">
-                            <div className="about_img"><img src="images/about.png" /></div>
-                        </div> */}
-                        {/* <div className="col"> */}
                         <h1 className="models_taital">Acerca de Nosotros</h1>
                         <p className="about_text">En nuestro taller mecánico nos especializamos en brindar soluciones integrales para el mantenimiento y reparación de vehículos. Contamos con un equipo de técnicos capacitados y equipos de última tecnología que garantizan un servicio eficiente, transparente y de calidad. Nuestro compromiso es mantener tu vehículo en óptimas condiciones, ofreciéndote confianza, seguridad y la mejor atención personalizada.</p>
-                        {/* </div> */}
                     </div>
                 </div>
             </section>
